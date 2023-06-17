@@ -1,0 +1,67 @@
+body{
+  max-width: 960px;
+  padding: 4px;
+  margin:0 auto;
+}
+#link{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.logo{
+    height: 50px;
+    margin-left: 50px;
+}
+.link2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    margin-right:40px;
+}
+
+.mainvis{
+    height: 600px;
+    width: 100%;
+}
+/* about */
+h1{
+    font-size: 36px;
+    text-align: center;
+}
+.about-in{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.about-fot{
+    height: 150px;
+    border-radius: 50%;
+    margin-right:50px;
+    margin-bottom: 30px;
+}
+.about-in p{
+    font-size: 24px;
+    margin:0;
+}
+/* bicycle */
+#bicycle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px auto 10px auto;
+   
+}
+.item img{
+    max-width: 100%;
+}
+.item{
+    width:30%;
+}
+.item-center{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+footer p{
+    text-align: center;
+    font-size: 10px;
+}
